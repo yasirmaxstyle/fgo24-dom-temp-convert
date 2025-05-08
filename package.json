@@ -1,0 +1,20 @@
+{
+  "name": "fgo24-dom-temp-convert",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server"
+  },
+  "keywords": [
+    "temperature",
+    "conversion",
+    "dom",
+    "form"
+  ],
+  "author": "yasirmaxstyle",
+  "license": "ISC",
+  "description": "temperature converter made with dom javascript dynamic element",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
