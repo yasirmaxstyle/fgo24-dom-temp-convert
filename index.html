@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="./src/styles/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <form>
+            <label for="input-cel">Enter value in Celsius</label>
+            <div>
+                <input type="number" name="celsius" id="input-cel" min="0">
+                <button type="submit">Convert</button>
+            </div>
+        </form>
+        <div>
+            <p>The result of conversion to Fahrenheit: <span id="fValue"></span>&deg; F</p>
+            <p>The result of conversion to Kelvin: <span id="kValue"></span>&deg; K</p>
+            <p>The result of conversion to Reamur: <span id="rValue"></span>&deg; R</p>
+        </div>
+    </div>
+    <script src="./src/scripts/index.js"></script>
+</body>
+
+</html>
