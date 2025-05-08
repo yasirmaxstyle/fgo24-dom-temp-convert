@@ -15,4 +15,5 @@ form.addEventListener('submit', (event) => {
     fahrenheit.textContent = 9 / 5 * celInt + 32
     kelvin.textContent = celInt + 273
     reamur.textContent = 4 / 5 * celInt
+    document.querySelector('.result').classList.add('show')
 })
